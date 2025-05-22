@@ -1,3 +1,9 @@
 .product-card__price-section {
-    margin-top: 35px;
+    margin-top: 21px;
+}
+
+@media screen and (min-width: 40rem) {
+    .product-card__price-section {
+        margin-top: 26px;
+    }
 }

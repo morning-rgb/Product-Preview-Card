@@ -10,7 +10,7 @@ html(lang='en')
 
         //- Adding fonts
         link(rel="preconnect" href="https://fonts.googleapis.com")
-        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin='anonymous')
         link(rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap")
         link(rel="stylesheet" 
@@ -31,8 +31,8 @@ html(lang='en')
                     section.product-card__price-section.price-section 
                         p.price-section__current-price $149.99
                         p.price-section__previous-price $169.99
-                    button.product-card__to-cart-button.button
+                    button.product-card__to-cart-button.button(type='button')
                         img.button__icon(src=require('./images/icon-cart.svg') alt='Icon Of Cart')
-                        p.button__title Add to Cart
+                        | Add to Cart
 
                 

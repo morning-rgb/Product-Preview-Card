@@ -8,3 +8,9 @@
 
     margin-top: 16px;
 }
+
+@media screen and (min-width: 40rem) {
+    .info-section__description {
+        margin-top: 24px;
+    }
+}
