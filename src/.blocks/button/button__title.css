@@ -1,0 +1,7 @@
+.button__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: var(--White);
+}

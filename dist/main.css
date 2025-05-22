@@ -1,0 +1,246 @@
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/button/button.css ***!
+  \*********************************************************************************/
+.button {
+    border: none;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/*!***************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/button/button__icon.css ***!
+  \***************************************************************************************/
+.button__icon {
+    margin: 0 11px;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/button/button__title.css ***!
+  \****************************************************************************************/
+.button__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: var(--White);
+}
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/image-wrapper/image-wrapper__content.css ***!
+  \********************************************************************************************************/
+.image-wrapper__content {
+    width: 100%;
+    height: 100%;
+
+    object-fit: fill;
+}
+/*!*******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/info-section/info-section__category.css ***!
+  \*******************************************************************************************************/
+.info-section__category {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.315rem;
+    text-transform: uppercase;
+
+    color: var(--Grey);
+}
+/*!**********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/info-section/info-section__description.css ***!
+  \**********************************************************************************************************/
+.info-section__description {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: var(--Grey);
+
+    margin-top: 16px;
+}
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/info-section/info-section__title.css ***!
+  \****************************************************************************************************/
+.info-section__title {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+
+    color: var(--Black);
+
+    margin-top: 12px;
+}
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/page/page.css ***!
+  \*****************************************************************************/
+.page {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--Cream);
+}
+/*!**************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/page/page__content.css ***!
+  \**************************************************************************************/
+.page__content {
+    margin: 16px 28px;
+    max-width: 425px;
+    width: auto;
+}
+
+@media screen and (min-width: 40rem) {
+    .page__content {
+        max-width: 600px;
+    }    
+}
+/*!***********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/price-section/price-section.css ***!
+  \***********************************************************************************************/
+.price-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/price-section/price-section__current-price.css ***!
+  \**************************************************************************************************************/
+.price-section__current-price {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 32px;
+
+    color: var(--LightGreen);
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/price-section/price-section__previous-price.css ***!
+  \***************************************************************************************************************/
+.price-section__previous-price {
+    margin-left: 18px;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 13px;
+
+    text-decoration: line-through;
+
+    color: var(--Grey);
+}
+/*!*********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/product-card/product-card.css ***!
+  \*********************************************************************************************/
+.product-card {
+    background-color: var(--White);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 40rem) {
+    .product-card {
+        flex-direction: row;
+
+        width: 600px;
+        height: 450px;
+    }
+}
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/product-card/product-card__main-section.css ***!
+  \***********************************************************************************************************/
+.product-card__main-section {
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 40rem) {
+    .product-card__main-section {
+        padding: 32px;
+        max-width: 300px;
+    }
+}
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/product-card/product-card__preview-image.css ***!
+  \************************************************************************************************************/
+.product-card__preview-image {
+    width: 100%;
+}
+
+@media screen and (min-width: 40rem) {
+    .product-card__preview-image {
+        width: 300px;
+        height: 450px;
+    }
+}
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/product-card/product-card__price-section.css ***!
+  \************************************************************************************************************/
+.product-card__price-section {
+    margin-top: 35px;
+}
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/product-card/product-card__to-cart-button.css ***!
+  \*************************************************************************************************************/
+.product-card__to-cart-button {
+    margin-top: 24px;
+
+    width: 100%;
+    height: 48px;
+
+    background-color: var(--LightGreen);
+
+    transition: background-color 0.2s;
+}
+
+.product-card__to-cart-button:hover {
+    background-color: var(--Green);
+    cursor: pointer;
+}
+
+.product-card__to-cart-button:active {
+    transition: none;
+    background-color: var(--DarkGreen);
+    cursor: pointer;
+}
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/reset.css ***!
+  \*************************************************************************/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+}
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/.blocks/variables.css ***!
+  \*****************************************************************************/
+:root {
+    --LightGreen: hsl(158, 36%, 37%);
+    --Green: hsl(158, 42%, 18%);
+    --DarkGreen: hsl(158, 42%, 12%);
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+}

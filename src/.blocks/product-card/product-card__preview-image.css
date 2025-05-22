@@ -1,0 +1,10 @@
+.product-card__preview-image {
+    width: 100%;
+}
+
+@media screen and (min-width: 40rem) {
+    .product-card__preview-image {
+        width: 300px;
+        height: 450px;
+    }
+}

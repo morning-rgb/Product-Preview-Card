@@ -1,0 +1,19 @@
+.product-card {
+    background-color: var(--White);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 40rem) {
+    .product-card {
+        flex-direction: row;
+
+        width: 600px;
+        height: 450px;
+    }
+}

@@ -1,0 +1,38 @@
+doctype html 
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+
+        link(rel='icon' type='image/png' sizes='32x32' href=require('./images/favicon-32x32.png'))
+
+        title= 'Frontend Mentor | Product preview card component'
+
+        //- Adding fonts
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap")
+        link(rel="stylesheet" 
+            href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap")
+    body 
+        main.page 
+            article.page__content.product-card
+                picture.product-card__preview-image.image-wrapper
+                    source(srcset=require('./images/image-product-desktop.jpg') media='screen and (min-width: 40rem)')
+                    img.image-wrapper__content(src=require('./images/image-product-mobile.jpg') alt='Image Of Product')
+                section.product-card__main-section 
+                    section.info-section 
+                        p.info-section__category Perfume
+                        h1.info-section__title Gabrielle Essence Eau De Parfum
+                        p.info-section__description 
+                            | A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                            | Perfumer-Creator for the House of CHANEL.
+                    section.product-card__price-section.price-section 
+                        p.price-section__current-price $149.99
+                        p.price-section__previous-price $169.99
+                    button.product-card__to-cart-button.button
+                        img.button__icon(src=require('./images/icon-cart.svg') alt='Icon Of Cart')
+                        p.button__title Add to Cart
+
+                

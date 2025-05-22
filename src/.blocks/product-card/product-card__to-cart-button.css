@@ -1,0 +1,21 @@
+.product-card__to-cart-button {
+    margin-top: 24px;
+
+    width: 100%;
+    height: 48px;
+
+    background-color: var(--LightGreen);
+
+    transition: background-color 0.2s;
+}
+
+.product-card__to-cart-button:hover {
+    background-color: var(--Green);
+    cursor: pointer;
+}
+
+.product-card__to-cart-button:active {
+    transition: none;
+    background-color: var(--DarkGreen);
+    cursor: pointer;
+}

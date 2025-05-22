@@ -1,0 +1,7 @@
+.price-section__current-price {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 32px;
+
+    color: var(--LightGreen);
+}

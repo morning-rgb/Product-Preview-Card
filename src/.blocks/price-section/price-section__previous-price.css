@@ -1,0 +1,11 @@
+.price-section__previous-price {
+    margin-left: 18px;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 13px;
+
+    text-decoration: line-through;
+
+    color: var(--Grey);
+}
